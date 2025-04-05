@@ -1,0 +1,37 @@
+1.mkdir /d/git/SI_2025_lab1_212052
+2.cd /d/git/SI_2025_lab1_212052
+3.git init
+4.git remote add origin https://github.com/trendo4/SI_2025_lab1_212052.git
+5.nano README.md
+6.git add README.md
+7.git commit -m "Initial commit"
+8.git add SI2025Lab1Main.java
+9.git commit -m "Add starter code"
+10.git push origin master
+
+11.git fetch origin
+12.git checkout 1-remove-a-task-by-name
+13.git add SI2025Lab1Main.java
+14.git commit -m "Implemented removeTask to remove task by name"
+15.git push origin 1-remove-a-task-by-name
+
+17.git fetch origin
+18.git checkout 3-list-tasks-sorted-by-name
+19.git add SI2025Lab1Main.java
+20.git commit -m "Implemented sorting tasks by name"
+21.git push origin 3-list-tasks-sorted-by-name
+
+22.git fetch origin
+23.git checkout 8-mark-a-task-as-completed-by-name
+24.git add SI2025Lab1Main.java
+24.git commit -m "Implemented mark task as completed by name"
+25.git push origin 8-mark-a-task-as-completed-by-name
+
+26.git checkout master
+27.git merge 3-list-tasks-sorted-by-name
+28.git add SI2025Lab1Main.java
+29.git commit -m "Merged 3-list-tasks-sorted-by-name into master"
+30.git push origin master
+
+
+

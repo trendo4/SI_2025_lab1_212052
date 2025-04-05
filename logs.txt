@@ -1,0 +1,15 @@
+*   8f460c3 Resolved merge conflict in SI2025Lab1Main.java
+|\  
+| *   de6b031 Merge pull request #12 from trendo4/8-mark-a-task-as-completed-by-name
+| |\  
+| | * 7f6b994 Implemented mark task as completed by name
+| * |   a9c58aa Merge pull request #10 from trendo4/1-remove-a-task-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * 1e5a1d7 Implemented removeTask to remove task by name
+| |/  
+* / 864f4e6 Implemented sorting tasks by name
+|/  
+* 74c6e9c Add starter code
+* 5379219 Initial commit
